@@ -39,11 +39,9 @@ namespace ReadMe.Consumer.Tests
                     .WithHeader("Content-Type", "application/json; charset=utf-8")
                     .WithJsonBody(new
                     {
-                        // Here is possible to use many matchers according to this lib PactNet.Matchers
-                        // or set directly expected values
                         id = Match.Type("001"),
-                        firstName = Match.Type("Joao"),
-                        lastName = Match.Type("Silva")
+                        firstName = Match.Type("Ozzy"),
+                        lastName = Match.Type("Osbourne")
                     });
 
             await this.pactBuilder.VerifyAsync(async ctx =>

@@ -41,8 +41,8 @@ namespace ReadMe.Provider.Tests
                 usersData.Add(new User()
                 {
                     Id = "001",
-                    FirstName = "Andre",
-                    LastName = "Rodrigues",
+                    FirstName = "James",
+                    LastName = "Hetfield",
                 });
             }
             File.WriteAllText(dataFilePath, JsonConvert.SerializeObject(usersData));

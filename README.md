@@ -1,16 +1,17 @@
 # PactNet
 
+This repository is a simple example to create contract tests in .Net services with Pact library and broker.
+
 ### Make available PactBroket locally
 
 ```
-	docker-compose up
+docker-compose up
 ```
 
 ### Clone this current repository, access the root dir and perform test on a consumer side to generate the contracts
 
 ```
-	dotnet test .\Consumer.Tests\
-
+dotnet test .\Consumer.Tests\
 ```
 
 ### Publish the contract using PactBroker API
@@ -43,7 +44,7 @@ curl --location --request POST 'http://localhost:9292/contracts/publish' \
 ### Run provider tests to verify contracts and publish results to Local Pact Broker
 
 ```
-	dotnet test .\Provider.Tests\
+dotnet test .\Provider.Tests\
 ```
 
 ### Check the pact and results in Pact Broker
