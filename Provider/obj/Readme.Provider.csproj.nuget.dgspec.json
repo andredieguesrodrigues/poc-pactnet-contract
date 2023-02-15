@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\andrevinicius.rodrig\\Desktop\\docAndre\\FF\\Repos\\git_pessoal\\poc-pactnet-contract\\Provider\\Readme.Provider.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\andrevinicius.rodrig\\Desktop\\docAndre\\FF\\Repos\\git_pessoal\\poc-pactnet-contract\\Provider\\Readme.Provider.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andrevinicius.rodrig\\Desktop\\docAndre\\FF\\Repos\\git_pessoal\\poc-pactnet-contract\\Provider\\Readme.Provider.csproj",
+        "projectName": "Readme.Provider",
+        "projectPath": "C:\\Users\\andrevinicius.rodrig\\Desktop\\docAndre\\FF\\Repos\\git_pessoal\\poc-pactnet-contract\\Provider\\Readme.Provider.csproj",
+        "packagesPath": "C:\\Users\\andrevinicius.rodrig\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andrevinicius.rodrig\\Desktop\\docAndre\\FF\\Repos\\git_pessoal\\poc-pactnet-contract\\Provider\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andrevinicius.rodrig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifacts-we1.farfetch.net/artifactory/api/nuget/nuget-beta": {},
+          "https://artifacts-we1.farfetch.net/artifactory/api/nuget/nuget-stable": {},
+          "https://artifacts-we1.farfetch.net/artifactory/api/nuget/nuget-stable": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

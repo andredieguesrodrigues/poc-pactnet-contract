@@ -23,8 +23,6 @@ namespace ReadMe.Provider.Tests
             [Fact]
             public void VerifyLatestPacts()
             {
-                string version = "0.0.1";
-
                 var config = new PactVerifierConfig
                     {
                         LogLevel = PactLogLevel.Information,
