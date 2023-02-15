@@ -19,9 +19,9 @@
       },
       "response": {
         "body": {
-          "firstName": "Joao",
+          "firstName": "Ozzy",
           "id": "001",
-          "lastName": "Silva"
+          "lastName": "Osbourne"
         },
         "headers": {
           "Content-Type": "application/json; charset=utf-8"
